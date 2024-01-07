@@ -25,4 +25,25 @@ let myObj =
 const myFunction = function(){
     console.log("Hello World");
 }
-console.log(typeof scoreValue);
+//console.log(typeof scoreValue);
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myYoutubeName = "hiteshchoudharydotcom";
+
+let anotherName = myYoutubeName;
+anotherName = "chaiaurcode"
+console.log(anotherName);
+console.log(myYoutubeName);
+
+let userOne = {
+    email:"user@gmail.com",
+    upi:"user@ybl"
+}
+let userTwo = userOne;
+
+userTwo.email = "hitesh@google.com"
+console.log(userOne.email)
+console.log(userTwo.email)

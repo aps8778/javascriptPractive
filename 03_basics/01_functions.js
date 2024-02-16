@@ -25,7 +25,7 @@ function addTwoNumbers(num1, num2) {
 let result = addTwoNumbers(6, 7);
 // console.log(result);
 
-function loginUserMessage(username="shyam") {
+function loginUserMessage(username = "shyam") {
   if (!username) {
     console.log("please enter username");
     return;
@@ -33,4 +33,35 @@ function loginUserMessage(username="shyam") {
   return `${username} just logged in`;
 }
 
-console.log(loginUserMessage("abhi"));
+//console.log(loginUserMessage("abhi"));
+
+function calculateCartPrice(val1, val2, ...num1) {
+  return num1;
+}
+
+//console.log(calculateCartPrice(200, 400, 500, 1000));
+
+const user = {
+  username: "abhishek",
+  price: "100",
+};
+
+function handleObject(anyObject) {
+  console.log(
+    `Username is ${anyObject.username} and price is ${anyObject.price}.`
+  );
+}
+
+//handleObject(user);
+handleObject({
+  username: "shyam",
+  price: 1000,
+});
+
+const myNewArray = [200, 400, 100, 600];
+
+function returnArrayValue(getArray) {
+  return getArray[1];
+}
+//console.log(returnArrayValue(myNewArray));
+console.log(returnArrayValue([1000, 10, 10000, 1000000]));

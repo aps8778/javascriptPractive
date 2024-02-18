@@ -9,10 +9,22 @@ if (true) {
   //console.log(`INNER:`, b)
 }
 
-for (let i = 0; i < array.length; i++) {
-  const element = array[i];
-}
+// for (let i = 0; i < array.length; i++) {
+//   const element = array[i];
+// }
 
 //console.log(a);
 //console.log(b);
 //console.log(c);
+
+//+++++++++++++++++interesting+++++++++++++++++++++++++
+console.log(addOne(5));
+function addOne(num) {
+  return num + 1;
+}
+
+addTwo(6);
+const addTwo = function (num) {
+  return num + 2;
+};
+

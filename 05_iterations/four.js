@@ -6,10 +6,10 @@ const myObject = {
 };
 
 for (const key in myObject) {
- //console.log(key, ":-", myObject[key]);
+  //console.log(key, ":-", myObject[key]);
 }
 
-const programming = ["js", "rb", "cpp", "py", "java"];
+const programming = ["js", "ruby", "cpp", "py", "java"];
 
 for (const key in programming) {
   console.log(programming[key]);
